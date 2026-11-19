@@ -1,0 +1,52 @@
+body{
+    background-color:hsl(40, 33%, 98%);
+    
+}
+.sedans{
+    height: 400px;
+    width: 340px;
+    background-color:hsl(31, 77%, 52%);
+    padding: 20px;
+    
+}
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+    padding: 20px;
+    width: 340px;
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    padding: 20px;
+    width: 340px;
+}
+h2{
+    color: white;
+}
+p{
+    color: white;
+}
+button{
+    border: none;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+}
+.main{
+    display: flex;
+    padding: 20px;
+    
+}
+@media(max-width:760px){
+    .main{
+        flex-direction: column;
+    }
+    .sedans,.suvs,.luxury{
+        background-color: rgb(13, 41, 78);
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        align-items: center;
+        box-shadow: 4px 8px 9px blue;
+        width: 100%;
+    }
+}
